@@ -24,6 +24,6 @@ public class UnitTest1
     [BeforeAfter]
     public void Test1()
     {
-
+        Assert.True("test".Equals("test"));
     }
 }
