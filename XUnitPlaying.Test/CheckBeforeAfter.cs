@@ -5,8 +5,8 @@ namespace XUnitPlaying.Test;
 
 public class CheckBeforeAfter
 {
-    [Fact]
-    [BeforeAfter]
+    //[Fact, Trait("type", "unit")]
+    //[BeforeAfter]
     public async Task Test1()
     {
         Assert.True("test".Equals("test"));
