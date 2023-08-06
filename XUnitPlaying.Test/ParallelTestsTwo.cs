@@ -3,14 +3,11 @@ using Xunit;
 
 namespace XUnitPlaying.Test;
 
-//[Collection("test")]
-public class UnitTest2
+public class ParallelTestsTwo
 {
     [Fact]
-    [BeforeAfter]
     public async Task Test2()
     {
-        Assert.True("test".Equals("test"));
         await Task.Delay(3000);
     }
 }
